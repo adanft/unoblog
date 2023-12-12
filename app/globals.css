@@ -4,6 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
 	--bg: #fff;
 	--textColor: #000;
@@ -18,56 +19,17 @@
 	--softTextColor: #a6a6a6;
 }
 
-body {
-	max-width: 100vw;
-	overflow-x: hidden;
-}
-
-a {
-	color: inherit;
-	text-decoration: none;
-}
-
-.container {
-	min-height: 100vh;
-	background-color: var(--bg);
-	color: var(--textColor);
-}
-
-.wrapper {
-	max-width: 1536px;
-	margin: 0 auto;
-	padding: 0 80px;
-}
-
-@media screen and (max-width: 1536px) {
-	.wrapper {
-		max-width: 1366px;
+@layer components {
+	.title-color {
+		@apply text-[#5b2ba7] dark:text-[#8e54e9];
 	}
-}
 
-@media screen and (max-width: 1280px) {
-	.wrapper {
-		max-width: 1024px;
+	.text-color {
+		@apply text-[#727587] dark:text-[#8b8ea0];
 	}
-}
 
-@media screen and (max-width: 1024px) {
-	.wrapper {
-		max-width: 768px;
-		padding: 0 40px;
-	}
-}
-
-@media screen and (max-width: 768px) {
-	.wrapper {
-		max-width: 640px;
-	}
-}
-
-@media screen and (max-width: 640px) {
-	.wrapper {
-		max-width: 475px;
+	.bg-primary {
+		@apply bg-[var(--bg)] text-[var(--textColor)];
 	}
 }
 

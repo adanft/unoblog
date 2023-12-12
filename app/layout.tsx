@@ -23,8 +23,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 			<body className={inter.className}>
 				<AuthProvider>
 					<ThemeContextProvider>
-						<div className="container">
-							<div className="wrapper">
+						<div className="bg-primary min-h-screen min-w-full">
+							<div className="container mx-auto">
 								<Navbar />
 								{children}
 								<Footer />
