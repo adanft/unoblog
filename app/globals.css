@@ -1,3 +1,5 @@
+@import url(https://www.nerdfonts.com/assets/css/webfont.css);
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,12 +16,6 @@
 	--textColor: #ddd;
 	--softBg: #1f273a;
 	--softTextColor: #a6a6a6;
-}
-
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
 }
 
 body {

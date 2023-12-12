@@ -11,12 +11,12 @@ const Footer = () => {
 				<div className={styles.logo}>
 					<Image
 						src="/logo.png"
-						alt="unoblog"
+						alt="unofy-img"
 						width={50}
 						height={50}
 						style={{ borderRadius: '50%' }}
 					/>
-					<h1 className={styles.logoText}>unoBlog</h1>
+					<h1 className={styles.logoText}>Unofy</h1>
 				</div>
 				<p className={styles.desc}>
 					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim necessitatibus
